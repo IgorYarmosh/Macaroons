@@ -1,0 +1,904 @@
+@media screen and (max-width: 1380px) {
+
+    .footer-present {
+        width: 65px;
+        height: 65px;
+    }
+
+    .footer-present-image {
+        width: 38px;
+    }
+
+    .footer-checkout {
+        bottom: -8px;
+        right: 75px;
+        align-items: center;
+        border: 2px solid #770a1d;
+        /*transition: bottom .2s linear;*/
+        transition: all .3s ease-in-out;
+        transform: translateY(90%);
+        opacity: 0;
+    }
+
+}
+
+@media screen and (max-width: 1180px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .choise-item {
+        max-width: 265px;
+        max-height: 290px;
+        justify-self: center;
+    }
+
+    .choice-items {
+        grid-template-columns: repeat(2, 265px);
+        grid-gap: 80px 30px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 1099px) {
+
+    .order-strawberry {
+        top: 130px;
+        left: -12px;
+    }
+
+    .order-small {
+        top: 458px;
+        right: 140px;
+    }
+
+    .bakery-image {
+        max-width: 450px;
+    }
+
+    .bakery-image img {
+        max-width: 100%;
+    }
+
+    .order-food {
+        margin-right: 75px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .bakery .container {
+        text-align: center;
+    }
+
+    .order {
+        overflow: hidden;
+    }
+
+    .bakery-image {
+        margin: 30px auto;
+    }
+
+    .bakery-image img {
+        width: 350px;
+        height: 250px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .bakery-info {
+        display: inline-block;
+    }
+
+    .bakery-info-text {
+        margin: 0 auto;
+    }
+
+    .bakery-info-description h2 {
+        margin-bottom: 20px;
+    }
+
+
+    .container {
+        max-width: 728px;
+        position: relative;
+    }
+
+    .header .container {
+        justify-content: flex-start;
+    }
+
+    .header-logo {
+        margin-right: 103px;
+    }
+
+    .menu-item {
+        margin-right: 30px;
+    }
+
+    .telephone {
+        display: none;
+    }
+
+    .main {
+        position: relative;
+        padding: 126px 0 424px 0;
+    }
+
+    .main-image {
+        position: absolute;
+        right: 64px;
+        bottom: -361px;
+    }
+
+    .bakery-benefits {
+        grid-template-columns: repeat( auto-fill, minmax(265px, 250px) );
+        justify-content: center;
+        grid-column-gap: 54px;
+        grid-row-gap: 80px;
+    }
+
+    .bakery-benefits-item {
+        max-width: 220px;
+        max-height: 230px;
+        justify-self: center;
+    }
+
+
+    .bakery-benefits-item {
+        position: relative;
+    }
+
+    .bakery-benefits-cicrle {
+        margin: 0 auto;
+    }
+
+    .order-food {
+        order: 2;
+    }
+
+    .order-info {
+        order: 1;
+        width: 410px;
+    }
+
+    .order-pies {
+        position: absolute;
+        left: -9px;
+        bottom: -76px;
+    }
+
+    .order-pies img {
+        width: 320px;
+        height: 410px;
+    }
+
+    .bakery-info-text {
+        width: 672px;
+    }
+
+    .bakery-info-description h2 {
+        margin: 0 auto;
+        margin-bottom: 61px;
+    }
+
+    .order-small {
+        top: 161px;
+        right: -219px;
+    }
+
+    .order-strawberry {
+        top: 243px;
+        left: -61px;
+    }
+
+}
+
+@media screen and (max-width: 737px) {
+    .order-small {
+        top: 158px;
+        right: -200px;
+    }
+}
+
+
+@media screen and (max-width: 697px) {
+    .bakery-info-text {
+        width: 572px;
+    }
+}
+
+
+@media screen and (max-width: 689px) {
+    /*.bakery-info-text {*/
+    /*    width: 572px;*/
+    /*}*/
+    .main-image {
+        max-width: 620px;
+        position: relative;
+        bottom: -560px;
+        left: -245px;
+    }
+
+    .main-image img {
+        width: 400px;
+    }
+
+    .order-strawberry {
+        top: 243px;
+        left: -97px;
+    }
+
+
+}
+
+@media screen and (max-width: 676px) {
+    .order-small {
+        top: 158px;
+        right: -140px;
+    }
+
+    .order-pies {
+        left: -72px;
+    }
+}
+
+@media screen and (max-width: 624px) {
+    .bakery-benefits {
+        grid-template-columns: repeat( auto-fill, minmax(220px, 220px) );
+        justify-content: center;
+        grid-column-gap: 54px;
+        grid-row-gap: 80px;
+    }
+}
+
+@media screen and (max-width: 598px) {
+    .bakery-info-text {
+        width: 472px;
+    }
+
+    .order-strawberry {
+        top: 273px;
+        left: -98px;
+    }
+}
+
+@media screen and (max-width: 566px) {
+
+    .main .container {
+        flex-direction: column;
+    }
+
+    .main {
+        position: relative;
+        padding: 126px 0 43px 0;
+    }
+
+    .main-info {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .main-info h1 {
+        font-size: 32px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .main-info-text {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .main-image {
+        max-width: 620px;
+        position: relative;
+        bottom: 0;
+        left: 0;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .main-image img {
+        width: 300px;
+    }
+
+    .main-image::before, .main-image::after {
+        content: '';
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        border: 2px solid #f6dec0;
+        left: calc(50% - 80px);
+        top: calc(50% - 80px);
+        border-radius: 50%;
+        opacity: 0;
+        animation: pulse 1.5s linear infinite;
+    }
+
+    .main-image::after {
+        animation-delay: 1.3s;
+    }
+
+    .bakery-info-description h2 {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 562px) {
+    .choise-item {
+        max-width: 265px;
+        max-height: 290px;
+        justify-self: center;
+    }
+
+    .choice-items {
+        grid-template-columns: repeat(1, 265px);
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 557px) {
+    .menu {
+        display: none;
+    }
+
+    .menu {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        top: 0;
+        left: 0;
+        background: #000000c9;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 0 auto;
+    }
+
+    .menu-item {
+        margin: 15px 0;
+    }
+
+    .burger {
+        display: block;
+        order: 1;
+    }
+
+    .telephone {
+        display: none;
+    }
+
+    .header .container {
+        order: 0;
+        width: 345px;
+        justify-content: space-between;
+    }
+
+    .burger svg {
+        width: 36px;
+        height: 36px;
+        fill: #331907;
+        /*margin-right: 20px;*/
+    }
+
+    .menu.open {
+        display: flex;
+        align-items: center;
+        z-index: 999;
+    }
+
+    .menu .close {
+        display: block;
+        width: 24px;
+        height: 24px;
+        fill: rgb(164, 107, 0);
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+
+
+    .order-info {
+        width: 345px;
+        margin: 0 auto;
+    }
+
+    .order-info h4 {
+        width: 345px;
+        font-size: 37px;
+    }
+
+    .order-pies {
+        display: none;
+    }
+
+    .order-small {
+        display: none;
+    }
+
+    .footer-present {
+        right: 60px;
+        bottom: 20px;
+    }
+
+    .order-strawberry {
+        top: 157px;
+        left: -142px;
+        position: absolute;
+    }
+}
+
+@media screen and (max-width: 553px) {
+    /*.main-info {*/
+    /*    margin-left: 80px;*/
+    /*}*/
+}
+
+@media screen and (max-width: 534px) {
+    .bakery-benefits {
+        grid-template-columns: repeat( auto-fill, minmax(200px, 200px) );
+        justify-content: center;
+        grid-column-gap: 54px;
+        grid-row-gap: 80px;
+    }
+}
+
+@media screen and (max-width: 506px) {
+    /*.main-info {*/
+    /*    margin-left: 60px;*/
+    /*}*/
+}
+
+@media screen and (max-width: 497px) {
+    .bakery-info-description h2 {
+        width: 372px;
+        font-size: 30px;
+    }
+
+    .bakery-info-text {
+        width: 372px;
+    }
+}
+
+@media screen and (max-width: 494px) {
+    .bakery-benefits {
+        grid-template-columns: repeat( auto-fill, minmax(160px, 160px) );
+        justify-content: center;
+    }
+
+    @media screen and (max-width: 445px) {
+        .bakery-benefits {
+            grid-template-columns: repeat( auto-fill, minmax(160px, 160px) );
+            justify-content: center;
+            align-items: center;
+        }
+
+        .bakery-benefits-item {
+            width: 155px;
+        }
+
+        .bakery-benefits-title {
+            width: 180px;
+        }
+
+        .bakery-benefits-text {
+            max-width: 160px;
+        }
+    }
+
+
+
+    @media screen and (max-width: 461px) {
+
+        .footer {
+            padding: 150px 0 62px 0;
+        }
+        .footer .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            max-width: 170px;
+            margin: 0 auto;
+            position: relative;
+            padding-bottom: 150px;
+        }
+
+        .footer-logo {
+            position: absolute;
+            top: -91px;
+            left: 48px;
+        }
+
+
+        .footer-rights {
+            position: absolute;
+            bottom: 9px;
+            left: 30px;
+        }
+
+        .footer-instagram {
+            margin-top: 10px;
+            position: absolute;
+            bottom: 63px;
+        }
+
+        .footer-text-instagram {
+            margin: 0;
+        }
+
+        .footer-telefon {
+            order: 0;
+            position: absolute;
+            bottom: 168px;
+        }
+    }
+
+
+    @media screen and (max-width: 420px) {
+        .bakery-benefits {
+            grid-template-columns: repeat( auto-fill, minmax(140px, 140px) );
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    @media screen and (max-width: 400px) {
+        .bakery-benefits {
+            grid-template-columns: repeat( auto-fill, minmax(130px, 130px) );
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    @media screen and (max-width: 392px) {
+
+        .bakery-benefits-title {
+            font-size: 18px;
+        }
+
+        .bakery-benefits-text {
+            font-size: 13px;
+        }
+
+        .bakery-image img {
+            width: 300px;
+            height: 190px;
+        }
+
+
+        .bakery-info-text {
+            font-size: 16px;
+            width: 362px;
+            text-align: center;
+        }
+        .choice .bakery {
+            overflow: hidden;
+        }
+
+        .choice h3 {
+            font-size: 24px;
+            max-width: 336px;
+        }
+
+        .order-info h4 {
+            font-size: 30px;
+            text-align: left;
+        }
+
+        .order-text {
+            font-size: 16px;
+            text-align: left;
+        }
+
+        .order-text-title {
+            font-size: 18px;
+        }
+
+        .bakery-benefits-title {
+            font-size: 18px;
+        }
+
+    }
+
+
+    @media screen and (max-width: 387px) {
+        .header {
+            overflow: hidden;
+        }
+
+        .bakery-info-description {
+            width: 345px;
+        }
+
+        .bakery-info-text {
+            width: 345px;
+        }
+
+        .bakery-info {
+            overflow: hidden;
+        }
+
+        .bakery-benefits {
+            grid-template-columns: repeat( auto-fill, minmax(120px, 120px) );
+            justify-content: center;
+            align-items: center;
+        }
+
+    }
+
+    @media screen and (max-width: 376px) {
+        .main-info {
+            margin-left: -10px;
+        }
+
+        .bakery-benefits {
+            grid-template-columns: repeat( auto-fill, minmax(115px, 115px) );
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+
+    @media screen and (max-width: 366px) {
+
+        .bakery {
+            overflow: hidden;
+        }
+        .burger svg {
+            margin-right: 20px;
+        }
+
+        .bakery-info-description h2 {
+            width: 272px;
+        }
+
+        .order-text {
+            width: 272px;
+        }
+
+    }
+
+    @media screen and (max-width: 355px) {
+        .burger svg {
+            margin-right: 40px;
+        }
+    }
+
+
+    @media screen and (max-width: 349px) {
+        .main-info h1 {
+            width: 300px;
+        }
+
+        .main-info-text {
+            width: 300px;
+        }
+    }
+
+    @media screen and (max-width: 335px) {
+        .main-image {
+            bottom: -10px;
+            left: -7px;
+        }
+
+        .burger svg {
+            margin-right: 60px;
+        }
+    }
+}
+
+@media screen and (max-width: 386px) {
+
+}
+
+
+    @media screen and (max-width: 461px) {
+
+        .footer {
+            padding: 150px 0 62px 0;
+        }
+        .footer .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            max-width: 170px;
+            margin: 0 auto;
+            position: relative;
+            padding-bottom: 150px;
+        }
+
+        .footer-logo {
+            position: absolute;
+            top: -91px;
+            left: 48px;
+        }
+
+
+        .footer-rights {
+            position: absolute;
+            bottom: 9px;
+            left: 30px;
+        }
+
+        .footer-instagram {
+            margin-top: 10px;
+            position: absolute;
+            bottom: 63px;
+        }
+
+        .footer-text-instagram {
+            margin: 0;
+        }
+
+        .footer-telefon {
+            order: 0;
+            position: absolute;
+            bottom: 168px;
+        }
+    }
+
+
+    @media screen and (max-width: 420px) {
+        .bakery-benefits {
+            grid-template-columns: repeat( auto-fill, minmax(140px, 140px) );
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    @media screen and (max-width: 400px) {
+        .bakery-benefits {
+            grid-template-columns: repeat( auto-fill, minmax(130px, 130px) );
+            justify-content: center;
+            align-items: center;
+        }
+
+        .bakery-info-description h2 {
+            text-align: center;
+        }
+
+        .bakery-info-description h2 {
+            width: 345px;
+        }
+    }
+
+    @media screen and (max-width: 392px) {
+        .bakery {
+            overflow: hidden;
+        }
+        .bakery-benefits-title {
+            font-size: 18px;
+        }
+
+        .bakery-benefits-text {
+            font-size: 13px;
+        }
+
+        .bakery-image img {
+            width: 300px;
+            height: 190px;
+        }
+
+
+        .bakery-info-text {
+            font-size: 16px;
+            width: 362px;
+            text-align: center;
+        }
+        .choice .bakery {
+            overflow: hidden;
+        }
+
+        .choice h3 {
+            font-size: 24px;
+            max-width: 336px;
+        }
+
+        .order-info h4 {
+            font-size: 30px;
+            text-align: left;
+        }
+
+        .order-text {
+            font-size: 16px;
+            text-align: left;
+        }
+
+        .order-text-title {
+            font-size: 18px;
+        }
+
+        .bakery-benefits-title {
+            font-size: 18px;
+        }
+
+    }
+
+
+    @media screen and (max-width: 387px) {
+        .header {
+            overflow: hidden;
+        }
+
+        .bakery-info-text {
+            width: 345px;
+        }
+
+        .bakery-info {
+            overflow: hidden;
+        }
+
+        .bakery-benefits {
+            grid-template-columns: repeat( auto-fill, minmax(120px, 120px) );
+            justify-content: center;
+            align-items: center;
+        }
+
+    }
+
+@media screen and (max-width: 386px) {
+    .bakery-info-description h2 {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 366px) {
+    .bakery-info-text {
+        width: 307px;
+    }
+
+    .bakery-info-description h2 {
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 366px) {
+    .bakery-info-description h2 {
+        width: 318px;
+        margin-left: 0;
+    }
+}
+
+
+@media screen and (max-width: 345px) {
+    .bakery-info-text {
+        width: 264px;
+    }
+
+    .bakery-image img {
+        width: 220px;
+        height: 160px;
+    }
+
+    .bakery-info-description h2 {
+        margin: 0 auto;
+        margin-bottom: 40px;
+        padding: 0;
+    }
+
+    .bakery-info-description h2 {
+        width: 300px;
+        margin-left: -4px;
+    }
+
+    .bakery-info-text {
+        width: 300px;
+        margin-left: 0;
+
+    }
+
+    .bakery-image {
+        margin-left: -41px;
+    }
+}
+
+
+
