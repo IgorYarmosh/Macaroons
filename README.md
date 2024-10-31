@@ -1,2 +1,2 @@
-Адаптивная вёрстка сайта пирожных.
-В верстке использовались эффекты увеличения при наведении на элементы, hover-эффекты, зацикленная анимация, параллакс-эффект при наведении на элемент.
+Adaptive layout of a website of cakes.
+The layout used zoom effects when hovering over elements, hover effects, looped animation, parallax effect when hovering over an element.
